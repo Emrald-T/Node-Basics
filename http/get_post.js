@@ -4,14 +4,12 @@ const port = process.env.PORT
 
 const server = http.createServer((req, res) => {
 
-  const options = {
+  const req1 = http.request({
     hostname: 'whatever.com',
     port: 443,
     path: '/todos',
     method: 'GET'
-  }
-
-  const req1 = http.request(options, res1 => {
+  }, res1 => {
     console.log(`statusCode: ${res1.statusCode}`)
 
     res1.on('data', d => {
