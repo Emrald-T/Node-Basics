@@ -1,0 +1,16 @@
+{
+	actors : [
+		{
+			"name": "Jason Stathom"
+			"skills": "Defeating bad guys in style"
+		},
+		{
+			"name": "Steve Carell"
+			"skills": "Being Michael Scott"
+		},
+		{
+			"name": "Mindy Kapoor"
+			"skills": "Eat your brain"
+		}
+	]
+}
