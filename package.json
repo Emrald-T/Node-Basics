@@ -1,0 +1,35 @@
+{
+  "name": "samples",
+  "version": "1.0.0",
+  "description": "Series of Node JS samples",
+  "main": "hello-world.js",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "cowsay": "^1.4.0",
+    "minimist": "^1.2.0",
+    "node-fetch": "^2.6.0",
+    "progress": "^2.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-standard": "^4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emrald-T/Node-Basics.git"
+  },
+  "author": "Emrald",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emrald-T/Node-Basics/issues"
+  },
+  "homepage": "https://github.com/Emrald-T/Node-Basics#readme"
+}
