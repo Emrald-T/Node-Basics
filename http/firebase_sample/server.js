@@ -29,7 +29,7 @@ http.createServer((request, response) => {
       response.end(styleCSS);
 
     // Get JS files for the frontend logic
-    } else if (request.url.includes("userList.js")) {
+    } else if (request.url.includes(".js")) {
       let logicJS = fs.readFileSync(__dirname + "/views/" + request.url, "utf-8");
       response.statusCode = 200;
       response.setHeader("Content-Type", "text/javascript");

@@ -17,7 +17,7 @@
         <% if (data) { %>
           <ul class="user-list">
             <% data.forEach(user => { %>
-              <li><span><%= user.id + " (" + user.name + ")" %></span></li>
+              <li><%= user.id + " (" + user.name + ")" %></li>
             <% }) %>
           </ul>
         <% } %>
