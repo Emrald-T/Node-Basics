@@ -1,0 +1,27 @@
+<% /* eslint-disable */ %>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0"/>
+    <title><%= title %></title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet"/>
+    <script type="text/javascript" src="userList.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="centered-div">
+        <div class="user-list-title">
+            <h1>Users</h1>
+        </div>
+        <% if (data) { %>
+          <ul class="user-list">
+            <% data.forEach(user => { %>
+              <li><span><%= user.id + " (" + user.name + ")" %></span></li>
+            <% }) %>
+          </ul>
+        <% } %>
+      </div>
+    </div>
+  </body>
+</html>

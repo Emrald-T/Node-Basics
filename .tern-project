@@ -2,7 +2,6 @@
   "ecmaVersion": "6",
   "libs": [
     "browser",
-    "node",
     "react"
   ],
   "loadEagerly": [],
@@ -11,6 +10,23 @@
   ],
   "plugins": {
     "doc_comment": true,
-    "node_resolve": {}
+    "node_resolve": {},
+    "node": {
+      "dontLoad": "",
+      "load": "",
+      "modules": ""
+    },
+    "commonjs": {},
+    "es_modules": {},
+    "modules": {
+      "dontLoad": "",
+      "load": "",
+      "modules": ""
+    },
+    "requirejs": {
+      "baseURL": "",
+      "paths": "",
+      "override": ""
+    }
   }
 }
